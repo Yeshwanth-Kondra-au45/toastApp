@@ -1,0 +1,24 @@
+@import "../../App.css";
+
+
+.food-card-details {
+    align-items: center;
+    column-gap: 12px;
+    margin-left: 12px;
+}
+
+.price-font {
+    font-size: 0.8rem;
+}
+
+.card-tile {
+    background: var(--primary-bg);
+    box-shadow: inset -2px 2px 4px rgba(205, 205, 205, 0.2), inset 2px -2px 4px rgba(205, 205, 205, 0.2), inset -2px -2px 4px rgba(255, 255, 255, 0.9), inset 2px 2px 5px rgba(205, 205, 205, 0.9);
+    border-radius: 8px;
+}
+
+.price-tile {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 13px;
+}

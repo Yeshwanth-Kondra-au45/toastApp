@@ -1,0 +1,52 @@
+.add-container {
+    background: #F0F0F3;
+    box-shadow: -0.3125rem 0.3125rem 0.625rem 0 rgba(221, 221, 224, 0.2), 0.3125rem -0.3125rem 0.625rem 0 rgba(221, 221, 224, 0.2), -0.3125rem -0.3125rem 0.625rem 0 rgba(255, 255, 255, 0.9), 0.3125rem 0.3125rem 0.8125rem 0 rgba(220, 220, 220, 0.9);
+    border-radius: 10px;
+    width: 72px;
+    height: 32px;
+    border-color: transparent;
+}
+
+.add-container.complete-button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.add::before {
+    content: url('../../assests/add.svg');
+    text-align: center;
+    background: #F1F1F1;
+    box-shadow: inset -2px 2px 4px rgba(222, 222, 222, 0.2), inset 2px -2px 4px rgba(222, 222, 222, 0.2), inset -2px -2px 4px rgba(255, 255, 255, 0.9), inset 2px 2px 5px rgba(222, 222, 222, 0.9);
+    border-radius: 50%;
+    font-size: 16px;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+}
+
+span.minus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minus::before {
+    content: url('../../assests/minus.svg');
+    width: 17px;
+    height: 17px;
+    display: flex;
+    /* text-align: center; */
+    background: #F1F1F1;
+    box-shadow: inset -2px 2px 4px rgba(222, 222, 222, 0.2), inset 2px -2px 4px rgba(222, 222, 222, 0.2), inset -2px -2px 4px rgba(255, 255, 255, 0.9), inset 2px 2px 5px rgba(222, 222, 222, 0.9);
+    border-radius: 50%;
+    font-size: 5px;
+    /* font-size: 12px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    font-size: 0.8rem;
+}
